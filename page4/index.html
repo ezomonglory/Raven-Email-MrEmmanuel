@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Withdrawal Request</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body style="font-family: 'Hanken Grotesk', sans-serif">
+		<div
+			class="container"
+			style="
+				width: 99%;
+				max-width: 650px;
+				margin: 0 auto;
+				background-color: black;
+				height: fit-content;
+				min-height: 70vh;
+				top: 50%;
+				left: 50%;
+				position: absolute;
+				transform: translate(-50%, -50%);
+				border-radius: 5%;
+				overflow-x: hidden;
+                text-align: center;
+			"
+		>
+			<div
+				class="page-header"
+				style="
+					width: 100%;
+					background-color: #6600ff;
+					min-height: 10vh;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					gap: 5px;
+					color: white;
+				"
+			>
+				<img src="./raven_icon.png" width="5%" />
+				<h2 style="">Raven Livestream</h2>
+			</div>
+			<div class="page-body" style="color: white; "  >
+                <h2>Withdrawal Request</h2>
+                <p>Your withdrawal request has been sent. We will process your payment immediately</p>
+                <h1>
+                    $ <span class="amount">7,500</span>
+                </h1>
+                <hr style="width: 70%; margin: 0 auto;">
+                <br>
+                <p>Payment Processing</p> 
+                <br>
+                <br>
+                <div style="position: absolute; bottom: 1rem; text-align: center; width: 100%;">
+                    <p style="">
+                        if you have questions or issues with this payment contace Raven Live at <span> <a href="mailto:support@ravenlive.com" style="color: white; text-decoration: none;" >support@ravenlive.com</a></span>
+                    </p>                                                
+                    <hr style="width: 80%; margin: 0 auto;">
+                    <br>
+                    <a href="www.ravenlive.com" style="text-decoration:none; color:white;">www.ravenlive.com</a>
+                   </div>
+			</div>
+		</div>
+
+		<style>
+			@media screen and (max-width: 600px) {
+				h2 {
+					font-size: larger;
+				}
+
+				.container {
+					border-radius: 10px !important;
+				}
+
+				.page-body {
+					padding: 10px !important;
+				}
+			}
+
+		
+		</style>
+	</body>
+</html>
